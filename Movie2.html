@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://63d7c7f0b998e51f4509748f-%2Drelaxed-mermaid-ea298d.netlify.app/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derf Max</title>
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="">
+        <a href="/Movie.html#home" class="logo">
+            <i class="bx bxs-movie"></i>DerfMax
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!-- menu  -->
+        <ul class="navbar">
+            <li><a href="/Movie.html#home" class="home-active">Home</a></li>
+            <li><a href="/Movie.html#movies">Peliculas</a></li>
+            <li><a href="/Movie.html#coming">Muy Pronto</a></li>
+            <li><a href="/Movie.html#newsletter">Información</a>
+            </li>
+        </ul>
+        <a href="/index.html" class="btn">Sign In</a>
+
+        <script>
+            // Obtener el valor del parámetro de la URL
+            var urlParams = new URLSearchParams(window.location.search);
+            var valor = urlParams.get('valor');
+
+            // Realizar condiciones según el valor recibido
+            var imagen;
+            var text1;
+            var text2;
+            var text11;
+            var text22;
+            var you;
+            if (valor == 1) {
+                imagen = "m1.jpg";
+                text1 = "Doctor Strange en el multiverso de la locura Doctor Strange, además de recibir ayuda de aliados místicos nuevos y otros ya conocidos, atraviesa las alucinantes y peligrosas realidades alternativas del Multiverso para enfrentarse a un nuevo y misterioso adversario.";
+                text2 = "<br>Información:<br>Título Latino: Doctor Strange en el multiverso de la locura (2022)<br>Genero: Acción,Aventura,Fantasía<br>País: United States<br>Duración: 2horas 6minutos<br>Año: 2022<br>Director: Dominic Fysh,Sam Raimi<br>Elenco: Adam Hugill,Benedict Cumberbatch,Benedict Wong,Chiwetel Ejiofor,Elizabeth Olsen,Jett Klyne,Julian Hilliard,Michael Stuhlbarg,Sheila Atim,Xochitl Gomez";
+                text11 = "Doctor Strange";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/7HnHnhLPDG0";
+            } else if (valor == 2) {
+                imagen = "m2.jpg";
+                text1 = "Las cosas ya no son lo que eran en la zona del Medio Oriente en la que se desarrolla la película Pathaan, ahora los habitantes de este lugar viven una situación que roza la distopia. En este nuevo mundo, los ricos ya no habitan sus grandes casas, si no que éstas son ahora el hogar de los criminales más peligrosos de la ciudad y de casi todo el planeta.";
+                text2 = "<br>Información:<br>Título Latino: Pathaan<br>Genero: Acción,Crimen,Suspenso,Drama<br>País: India<br>Duración: 2horas 6minutos<br>Año: 2023<br>Director: Siddharth Anand<br>Elenco: Shah Rukh Khan, Deepika Padukone, John Abraham (II)";
+                text11 = "Pathaan";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/vqu4z34wENw";
+            } else if (valor == 3) {
+                imagen = "m3.jpg";
+                text1 = "Batman vs Superman: El Origen de la Justicia Ante el temor de las acciones que pueda llevar a cabo Superman, el vigilante de Gotham City aparece para poner a raya al superhéroe de Metrópolis, mientras que la opinión pública debate cuál es realmente el héroe que necesitan. El hombre de acero y Batman se sumergen en una contienda territorial, pero las cosas se complican cuando una nueva y peligrosa amenaza surge rápidamente, poniendo en jaque la existencia de la humanidad.";
+                text2 = "<br>Información:<br>Título Latino: Batman v Superman: Dawn of Justice<br>Genero: Acción, Aventura, Fantasía<br>País: United States<br>Duración: 2horas 31minutos<br>Año: 2016<br>Director:  Amber Harley,Brandon Lambdin,Bruce Moriarty,Cédric Gentil,Damon Caro,Jason Roberts,Julian Wall,Kimi Webber,Misha Bukowski,Stephen W. Moore,Zack Snyder<br>Elenco: Amy Adams,Ben Affleck,Callan Mulvey,Diane Lane,Gal Gadot,Henry Cavill,Holly Hunter,Jeremy Irons,Jesse Eisenberg,Laurence Fishburne";
+                text11 = "Batman vs Superman";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/0WWzgGyAH6Y";
+            } else if (valor == 4) {
+                imagen = "m4.jpg";
+                text1 = "Un Nuevo Día Para Matar En esta secuela del éxito de 2014, el legendario asesino John Wick (Keanu Reeves) se ve obligado a salir del retiro por un ex-asociado que planea obtener el control de un misterioso grupo internacional de asesinos. Obligado a ayudarlo por un juramento de sangre, John emprende un viaje a Roma lleno de adrenalina estremecedora para pelear contra los asesinos más peligrosos del mundo.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "John Wick 2: <br>Un Nuevo Día Para Matar";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/8vB_rZV2kSw";
+            } else if (valor == 5) {
+                imagen = "m5.jpg";
+                text1 = "Aquaman  Cuando Arthur Curry (Jason Momoa) descubre que es mitad humano y mitad atlante, emprenderá el viaje de su vida en esta aventura que no sólo le obligará a enfrentarse a quién es en realidad, sino también a descubrir si es digno de cumplir con su destino: ser rey, y convertirse en Aquaman.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "Aquaman";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/WDkg3h8PCVU";
+            } else if (valor == 6) {
+                imagen = "m6.jpg";
+                text1 = "Pantera Negra  T’Challa regresa a su hogar en la apartada nación africana de Wakanda para servir como líder de su país. Tras suceder a su padre en el trono, pasa a convertirse en Pantera Negra, una sigilosa criatura de la noche, con agudos sentidos felinos y otras habilidades como súper fuerza e inteligencia, agilidad, estrategia o maestro del combate sin armas. Es bajo el liderazgo de T’Challa como Wakanda consigue convertirse en una de las naciones más ricas y tecnológicamente avanzadas del planeta.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "Pantera Negra";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/xjDjIWPwcPU";
+            } else if (valor == 7) {
+                imagen = "m7.jpg";
+                text1 = "Fuera del Mapa El astuto ladrón Nathan Drake (Tom Holland) es reclutado por el experimentado cazador de tesoros Victor “Sully” Sullivan (Mark Wahlberg) para recuperar una fortuna perdida por Ferdinand Magellan hace 500 años. Lo que comienza como un trabajo de atraco para el dúo se convierte en una carrera trotamundos y nudillos blancos para alcanzar el premio antes que el despiadado Moncada (Antonio Banderas), quien cree que él y su familia son los legítimos herederos. Si Nate y Sully pueden descifrar las pistas y resolver uno de los misterios más antiguos del mundo, pueden encontrar un tesoro de $5 mil millones y tal vez incluso al hermano perdido de Nate… pero solo si pueden aprender a trabajar juntos.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "Uncharted";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/kVgsnqAp0Kk";
+            } else if (valor == 8) {
+                imagen = "m8.jpg";
+                text1 = "En la India antigua, la gente de la comunidad Brahmansh se ocupaba de su arma espiritual Brahmastra, pero a medida que pasaban los años con los tiempos cambiantes, la gente comenzó a olvidarse de ella. En la actualidad, Shiva, un DJ, tiene una extraña conexión con el fuego que nunca lo daña. Conoce a Isha y a ambos. enamórate. Un científico con sede en Delhi, Mohan Bhargav, de la comunidad Brahmansh, posee una parte de Brahmastra y es atacado por dos fuerzas malvadas, Zor y Raftaar, pero logra vencerlos con los poderes de Vanarastra, pero la malvada reina Junoon logra controlarlo y lo tortura. pregunte sobre Brahmastra. Pero Bhargav, siendo protector de él, da su vida, lo que Shiva ve en alucinaciones después de que entra en contacto con el fuego. También se da cuenta de que el próximo objetivo podría ser un artista Anish Shetty.Shiva e Isha van a salvar a Anish en Varanasi, donde él le cuenta los eventos que vio, pero Junoon ya llegó allí para matarlo, pero Anish logra escapar con Shiva e Isha con el poder de Nandiastra y les pide que lo lleven al Ashram de Guruji en Himachal.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "Brahmāstra";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/CHP98pPU-1U";
+            } else if (valor == 9) {
+                imagen = "m9.jpg";
+                text1 = "Miles de años después de la destrucción de la civilización por un cataclismo, la humanidad se ha adaptado y, ahora, existen gigantescas ciudades en movimiento que vagan por la tierra sobre enormes ruedas absorbiendo a los pueblos más pequeños para obtener recursos. En una de esas colosales urbes Tom Natsworthy , proveniente de la clase baja de Londres, deberá luchar por su vida junto a la peligrosa fugitiva Hester Shaw . Dos opuestos, cuyos caminos nunca debieron cruzarse, forman una peculiar alianza destinada a cambiar el curso del futuro.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "Máquinas Mortales";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/zDABDg7vwsk";
+            } else if (valor == 10) {
+                imagen = "m10.jpg";
+                text1 = "Nueva entrega de la franquicia Underworld, en la que la vampira deberá defenderse de ataques brutales de los 2 clanes, el de los Lycans y el de los Vampiros que la traicionaron. Con sus únicos aliados, David (Theo James) y Thomas su padre (Charles Dance), debe detener la guerra eterna entre Vampiros y Lycans, aunque signifique tener que hacer un último sacrificio.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "Inframundo 5: Guerras de Sangre";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/gJQe9qjYPEk";
+            } else if (valor == 11) {
+                imagen = "m11.jpg";
+                text1 = "Guardianes De La Galaxia Vol. 2  Continúan las aventuras del equipo en su travesía por los confines del cosmos. Los Guardianes deberán luchar para mantener unida a su nueva familia mientras intentan resolver el misterio de los verdaderos orígenes de Peter Quill. Viejos rivales se convertirán en nuevos aliados, y queridos personajes de los cómics clásicos acudirán en ayuda de nuestros héroes a medida que el Universo Cinematográfico de Marvel continúa expandiéndose.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "Guardianes De La Galaxia Vol. 2";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/fCPEpGpem3I";
+            } else if (valor == 12) {
+                imagen = "m12.jpeg";
+                text1 = "Mucho tiempo después de los eventos sucedidos en Avengers: Endgame, los Guardianes de la Galaxia deben convencer a Thor para que regrese al campo de batalla y se enfrente a un villano empeñado en matar a todas las criaturas divinas en todo el cosmos. Para luchar contra esta amenaza, Thor debe reclutar a sus amigos Valkyrie, Korg y su ex novia Jane Foster, quien misteriosamente puede empuñar el martillo de Thor y por ende poseer su gran poder.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "Thor: Amor y Trueno";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/ZaD7iZR0-5w";
+            } else if (valor == 13) {
+                imagen = "m13.jpg";
+                text1 = "Peter Parker es desenmascarado y ya no puede separar su vida normal de los altos riesgos de ser un súper héroe. Cuando pide ayuda al Doctor Strange para recuperar su secreto, el hechizo crea un agujero en su mundo, liberando a los villanos más poderosos que han luchado con cualquier Spider-Man, en cualquier universo. Ahora Peter debe de superar su reto más grande, que no solo alterara su propio futuro pero el del multiverso, forzándolo a descubrir lo que realmente significa ser Spider-Man.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "Spider-Man: Sin camino a casa";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/6QkTCmhOzuA";
+            } else if (valor == 14) {
+                imagen = "m14.jpg";
+                text1 = "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.";
+                text2 = "<br>Información:<br>Título Latino: John Wick 2: Un Nuevo Día Para Matar<br>Genero: Acción,Crimen,Suspenso<br>País: United States, Italy, Hong Kong, Canada<br>Duración: 2horas 2minutos<br>Año: 2017<br>Director:   Alessandra Fortuna,Ariane Collman,Chad Stahelski,Darrin Prescott,Federica Durigon,Guy Efrat,Jeremy Marks,John R. Saunders,Luigi Spoletini,Shane B. Scott<br>Elenco: Bridget Moynahan,Common,Franco Nero,John Leguizamo,Keanu Reeves,Lance Reddick,Laurence Fishburne,Peter Stormare,Riccardo Scamarcio,Ruby Rose";
+                text11 = "Avengers: End Game";
+                text22 = "120 min | Action";
+                you = "https://www.youtube.com/embed/znk2OICHbjY";
+            }
+
+            // Cargar la imagen correspondiente
+            window.onload = function () {
+                var img = document.getElementById("imagen");
+                var h3 = document.getElementById("text1");
+                var span = document.getElementById("text2");
+                var h33 = document.getElementById("text11");
+                var spann = document.getElementById("text22");
+                var iframe = document.getElementById("you");
+
+                img.src = imagen;
+                h3.textContent = text1;
+                span.innerHTML = text2;
+                h33.innerHTML = text11;
+                spann.textContent = text22;
+                iframe.src = you;
+            };
+        </script>
+    </header>
+
+    <!-- Home -->
+
+
+    <!-- movies  -->
+    <section class="movies" id="movies">
+        <h2 class="heading">-</h2>
+        <!-- movies container  -->
+        <div class="movies-container">
+            <!-- box-1  -->
+            <div class="box">
+                <div class="box-img">
+                    
+
+                    <img id="imagen" alt="Imagen">
+                </div>
+                <h3 id="text11"></h3>
+                <span id="text22"></span>
+            </div>
+            <div class="box2">
+                <h3 id="text1">
+                </h3>
+                <span id="text2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- coming  -->
+    <section class="coming" id="coming" onclick="metodo(this)">
+        <h2 class="heading">Reproducir</h2>
+        <!-- coming container  -->
+        <div class="youtube">
+            <div class="swiper-wrapper" id="swiper-wrapper-aa632febb158d42e" aria-live="off"
+                style="transition-duration: 0ms; transform: translate3d(-1976px, 0px, 0px);">
+
+
+            </div>
+            <iframe id="you" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+        </div>
+    </section>
+
+    <!-- Newsletter  -->
+    <section class="newsletter" id="newsletter">
+        <h2>Registrate para mas <br>Información</h2>
+        <form action="/Movie.html">
+            <input type="email" class="email" placeholder="Enter Email" required=""
+                style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpiYmZkZTQxOS00ZGRkLWU5NDYtOWQ2MC05OGExNGJiMTA3N2YiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDAyNDkwMkRDOTIyMTFFNkI0MzFGRTk2RjM1OTdENTciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDAyNDkwMkNDOTIyMTFFNkI0MzFGRTk2RjM1OTdENTciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTU2NTE1NDItMmIzOC1kZjRkLTk0N2UtN2NjOTlmMjQ5ZGFjIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOmJiZmRlNDE5LTRkZGQtZTk0Ni05ZDYwLTk4YTE0YmIxMDc3ZiIv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&quot;) !important; background-repeat: no-repeat; background-size: 20px; background-position: 97% center; cursor: auto;"
+                data-temp-mail-org="0">
+            <input type="submit" value="Subscribe" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer  -->
+    <section class="footer">
+        <a href="/Movie.html" class="logo">
+            <i class="bx bxs-movie"></i>DerfMax
+        </a>
+        <div class="social">
+            <a href="/Movie.html"><i class="bx bxl-faceVer "></i></a>
+            <a href="/Movie.html"><i class="bx bxl-twitter"></i></a>
+            <a href="/Movie.html"><i class="bx bxl-instagram"></i></a>
+        </div>
+    </section>
+
+    <!-- Copyright  -->
+    <div class="copyright">
+        <p>© DerfMax ALl Right Reserved</p>
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
